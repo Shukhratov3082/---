@@ -21,17 +21,6 @@ header .logo {
   gap: 20px;
   z-index: 100;
 }
-.logo-mobile {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #fff;
-  z-index: 100;
-  padding: 31px 10px 10px;
-  margin-top: -40px;
-  border-radius: 20px;
-}
 
 header nav ul {
   display: flex;
@@ -75,16 +64,12 @@ header #burger {
 .hero__content h1 {
   max-width: 480px;
   font-size: 72px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 68.4px;
   color: var(--dark);
 }
-.hero__content h1 span {
-  font-weight: 400;
-}
-.hero__content h1 span:last-child {
-  font-weight: 700;
-  color: var(--blue);
+.hero__content h1 img {
+  vertical-align: middle;
 }
 .hero__content p {
 }

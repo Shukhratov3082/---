@@ -11,6 +11,17 @@
     z-index: 88;
     background-color: #0d0d0dc2;
   }
+  .logo-mobile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    z-index: 100;
+    padding: 31px 10px 10px;
+    margin-top: -40px;
+    border-radius: 20px;
+  }
   main {
     padding: 0 20px;
   }
@@ -55,10 +66,9 @@
   }
   header .logo {
     gap: 10px;
-    
   }
   header .logo p {
-    font-size: 12px;
+    font-size: 11px;
   }
   header .logo img {
     max-width: 50px;
