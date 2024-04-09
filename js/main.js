@@ -19,3 +19,19 @@ document.querySelectorAll(".question").forEach((el) => {
     }
   });
 });
+
+document.querySelectorAll(".reviews-scroll").forEach((target) => {
+  target.addEventListener("click", function (e) {
+    e.preventDefault();
+    const targetId = this.getAttribute("href");
+    const targetElement = document.querySelector(targetId);
+    menu.classList.remove("visible");
+    home.classList.remove("home-shadow");
+    if (targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop - 250,
+        behavior: "smooth",
+      });
+    }
+  });
+});

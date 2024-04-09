@@ -32,7 +32,8 @@
 }
 .about h2 {
   font-size: 48px;
-  margin-bottom: 60px;
+  line-height: 52.8px;
+  margin-bottom: 90px;
 }
 
 .information__mark {
@@ -54,6 +55,7 @@
   position: absolute;
   top: -250px;
   right: 102px;
+  z-index: 1;
 }
 
 .about__package {
@@ -67,8 +69,9 @@
 }
 .package__content h2 {
   font-size: 48px;
+  margin: 0;
 }
-.package__content p {
+.package__content  p {
   font-size: 20px;
   margin-top: 20px;
 }
@@ -78,11 +81,12 @@
 .experience b {
   display: block;
   font-size: 24px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .experience__numbers {
   display: grid;
   grid-template-columns: repeat(2, auto);
+  column-gap: 70px;
 }
 
 .experience__numbers span {

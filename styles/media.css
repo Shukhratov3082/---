@@ -200,6 +200,9 @@
   .about__package {
     flex-direction: column-reverse;
   }
+  .package__content p {
+    text-align: center;
+  }
   .about__package img {
     width: 100%;
     margin-top: 30px;
