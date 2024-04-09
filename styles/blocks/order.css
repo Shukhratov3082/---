@@ -1,0 +1,32 @@
+.order {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 160px;
+  margin: 130px 0 27px;
+  position: relative;
+}
+
+.order img {
+  transform: translateY(-20px);
+}
+.order__content{
+  max-width: 54%;
+}
+.order__content h2 {
+  font-size: 48px;
+  line-height: 52.8px;
+}
+.order__content h4 {
+  font-size: 32px;
+  line-height: 40px;
+  margin: 15px 0 25px;
+}
+.order__content h4 span {
+  font-size: 24px;
+  font-weight: 400;
+}
+.order__content p {
+  font-size: 20px;
+  line-height: 26px;
+}

@@ -1,0 +1,98 @@
+.about {
+  margin: 80px 0 150px;
+}
+.about span {
+  font-size: 32px;
+}
+.about__information {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 140px;
+}
+.information__text {
+  position: relative;
+  padding: 50px 30px 30px;
+  border-radius: 30px;
+  background: #eff8ff;
+  font-size: 18px;
+  line-height: 23.4px;
+}
+.about__information ul {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 20px;
+  line-height: 26px;
+}
+.about__information li::marker {
+  color: var(--blue);
+}
+.about h2 {
+  font-size: 48px;
+  margin-bottom: 60px;
+}
+
+.information__mark {
+  display: flex;
+  background-color: var(--blue);
+  border-radius: 15px;
+  padding: 17px 13px;
+  position: absolute;
+  top: -30px;
+  left: 30px;
+}
+.person__container {
+  width: 50%;
+  position: relative;
+  align-self: self-end;
+}
+
+.person {
+  position: absolute;
+  top: -250px;
+  right: 102px;
+}
+
+.about__package {
+  display: flex;
+}
+.package__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.package__content h2 {
+  font-size: 48px;
+}
+.package__content p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.experience {
+  text-align: center;
+}
+.experience b {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.experience__numbers {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+.experience__numbers span {
+  font-weight: 800;
+  font-size: 60px;
+  color: var(--blue);
+}
+.experience__numbers p {
+  font-size: 18px;
+}
+.about__package img {
+  width: 50%;
+}

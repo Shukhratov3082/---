@@ -1,6 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import "blocks/home.css";
+@import "blocks/order.css";
+@import "blocks/documents.css";
+@import "blocks/security.css";
+@import "blocks/about.css";
+@import "blocks/questions.css";
+@import "blocks/reviews.css";
+@import "blocks/payment.css";
+@import "blocks/fines.css";
+@import "blocks/footer.css";
+@import "fonts.css";
+
+:root {
+  --dark-blue: #5ecca6;
+  --blue: #83d8ba;
+  --dark: #1d253b;
+  --gray: #696063;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Circe";
+  color: var(--dark);
+}
+main {
+  padding: 0 18vw;
+  overflow: hidden;
+}
+.menu {
+  display: none;
+}
+
+/*  */
 
